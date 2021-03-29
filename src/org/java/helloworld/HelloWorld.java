@@ -28,7 +28,7 @@ public class HelloWorld {
 		for(String day : weekdays ) {
 			
 			path.write(day + "\n");
-			System.out.println("Written..");
+			System.out.println("Written to the file..");
 			
 		}
 		path.close();
